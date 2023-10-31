@@ -1,5 +1,5 @@
 body {
-    font-family:'ubuntu', sans-serif;
+    font-family: 'ubuntu', sans-serif;
 }
 
 .container {
@@ -68,5 +68,37 @@ body {
     color: #fff;
     border: none;
     font-size: 17px;
+    text-transform: uppercase;
+}
+
+.slide .slideinfo {
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.slide {
+    background-image: url('../images/slidebg1.jpg');
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide .booknowbtn {
+    width: 20%;
+    text-align: left;
+}
+
+.slide .booknowbtn button {
+    background-color: #b37703;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
     text-transform: uppercase;
 }
