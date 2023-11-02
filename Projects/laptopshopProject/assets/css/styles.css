@@ -101,3 +101,40 @@ body {
     font-size: 20px;
     text-transform: uppercase;
 }
+
+.services {
+    background-color: #b37703;
+    padding: 20px;
+    text-align: left;
+    text-decoration: none;
+  }
+    
+  .servicesinfo {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .servicesinfo img {
+    margin-bottom: 10px;
+  }
+  
+  
+  .servicesinfo p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  .servicesinfo h3 {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+
+  
+  
