@@ -135,10 +135,6 @@ body {
     margin: 20px 0;
 }
 
-.categories .h2 {
-    text-align: center;
-    font-size: large;
-}
 .categories {
     display: flex;
     justify-content: center;
@@ -149,6 +145,7 @@ body {
 }
 
 .box {
+    flex: 1;
     border: 3px solid #eaeaea;
     border-radius: 10px;
     padding: 20px;
@@ -167,3 +164,29 @@ body {
     font-size: 18px;
     text-align: center;
 }
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: #fff;
+    background-color: lightgray;
+}
+
+.box {
+    flex: 1;
+    border: 3px solid #eaeaea;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.moreinfo img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
