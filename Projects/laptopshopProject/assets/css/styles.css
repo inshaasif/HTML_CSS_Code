@@ -165,7 +165,7 @@ body {
     text-align: center;
 }
 
-.more {
+.shipping {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +183,7 @@ body {
     text-align: center;
 }
 
-.moreinfo img {
+.shippinginfo img {
     width: 150px;
     height: 120px;
     object-fit: cover;
