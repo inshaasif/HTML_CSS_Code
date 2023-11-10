@@ -190,3 +190,34 @@ body {
     margin-bottom: 10px;
 }
 
+.issues {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: lightgray;
+  }
+  
+  .issuesinfo {
+    text-align: center;
+  }
+  
+.footer {
+    background-color: #b37703;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+}
+
+.footerinfo {
+    flex: 1;
+    padding: 10px;
+    font-size: large;
+}
