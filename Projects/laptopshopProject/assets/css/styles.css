@@ -10,8 +10,8 @@ body {
 }
 
 .header .headerinfo {
-    background-color: #b37703;
-    color: #fff;
+    background-color: #4ac7df;
+    color: #000;
     display: flex;
     padding: 10px;
 }
@@ -63,16 +63,16 @@ body {
 }
 
 .header .headermenu .booknowbtn button {
-    background-color: #b37703;
+    background-color: #4ac7df;
     padding: 10px 20px;
-    color: #fff;
+    color: #000;
     border: none;
     font-size: 17px;
     text-transform: uppercase;
 }
 
 .slide .slideinfo {
-    color: #fff;
+    color: #eaeaea;
     text-decoration: underline;
     text-align: left;
     font-size: 30px;
@@ -94,16 +94,16 @@ body {
 }
 
 .slide .booknowbtn button {
-    background-color: #b37703;
+    background-color: #4ac7df;
     padding: 10px 20px;
-    color: #fff;
+    color: #000;
     border: none;
     font-size: 20px;
     text-transform: uppercase;
 }
 
 .services {
-    background-color: #b37703;
+    background-color: #4ac7df;
     padding: 20px;
     text-align: left;
     text-decoration: none;
@@ -123,14 +123,14 @@ body {
   
   
   .servicesinfo p {
-    color: #fff;
+    color:#000;
     font-size: 16px;
     line-height: 1.6;
     text-align: left;
   }
   
   .servicesinfo h3 {
-    color: #fff;
+    color: #000;
     font-size: 20px;
     margin: 20px 0;
 }
@@ -140,8 +140,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    color: #fff;
-    background-color: lightgrey;
+    color: #000;
+    background-color:white;
 }
 
 .box {
@@ -170,8 +170,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    color: #fff;
-    background-color: lightgray;
+    color: #000;
+    background-color: white;
 }
 
 .box {
@@ -196,22 +196,29 @@ body {
     justify-content: space-between;
   }
   
-  .box {
+.box {
     flex-basis: 30%;
     margin-bottom: 20px;
-    border: 1px solid lightgray;
+    border: 1px solid white;
     padding: 20px;
     border-radius: 5px;
-    background-color: lightgray;
+    background-color: lightgoldenrodyellow;
   }
   
-  .issuesinfo {
+.issuesinfo {
     text-align: center;
-  }
+}
   
+.box .issuesinfo .img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
 .footer {
-    background-color: #b37703;
-    color: #fff;
+    background-color: #4ac7df;
+    color: #000;
     display: flex;
     padding: 10px;
 }
