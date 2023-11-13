@@ -203,15 +203,17 @@ body {
     padding: 20px;
     border-radius: 5px;
     background-color: lightgoldenrodyellow;
-  }
+   }
+
   
 .issuesinfo {
     text-align: center;
 }
   
-.box .issuesinfo .img {
+.issuesinfo img {
     width: 150px;
     height: 120px;
+    flex: 1;
     object-fit: cover;
     margin-top: 10px;
 }
