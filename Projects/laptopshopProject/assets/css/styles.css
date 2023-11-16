@@ -230,3 +230,29 @@ body {
     padding: 10px;
     font-size: large;
 }
+
+.contact .box p {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.contact .box h2 {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.contact .box h4 {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.contact .box h1 {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.form {
+    text-align: left;
+    font-size: medium;
+    color: black;
+}
